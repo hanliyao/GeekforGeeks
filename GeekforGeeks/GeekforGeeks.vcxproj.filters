@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Basic Data Structure">
+      <UniqueIdentifier>{93056752-b590-4314-b5fd-0ca7d90ecb00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Advanced Data Structure">
+      <UniqueIdentifier>{24b2226c-91da-49f5-803d-08fc7b1a609f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sort and Search">
+      <UniqueIdentifier>{f76a9dc6-7444-40c6-84d7-e6486bf4d985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\String manipulation">
+      <UniqueIdentifier>{76e8378e-6d5e-47a7-880f-fe5ed65bfee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dynamic Programming">
+      <UniqueIdentifier>{e8b1483f-7554-40e2-b0fa-5f759dc92809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Back Tracking">
+      <UniqueIdentifier>{4c511dfa-a544-4dfa-9a0e-0d8877ce862c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Greedy Algorithm">
+      <UniqueIdentifier>{1291b904-6428-4174-b65c-5916337ffd7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graph Algorithm">
+      <UniqueIdentifier>{08cbe8bc-e8f7-4308-ba94-bfd8410584a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Number Theory">
+      <UniqueIdentifier>{6ff76e5b-a709-43eb-a305-7488bd0de6aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Combinatorics">
+      <UniqueIdentifier>{b45b56dc-418d-492c-9fcc-d08474974132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NetFlow">
+      <UniqueIdentifier>{d344005d-6d83-43f8-bd5b-da604d323487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Basic Data Structure\Array">
+      <UniqueIdentifier>{ee5c1b00-ec03-4392-889f-b77da9df60e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="关于如何准备ACM比赛的问题.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PairInArray.cpp">
+      <Filter>Source Files\Basic Data Structure\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="MajorityElement.cpp">
+      <Filter>Source Files\Basic Data Structure\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Number with odd times.cpp">
+      <Filter>Source Files\Basic Data Structure\Array</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
