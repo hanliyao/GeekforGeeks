@@ -65,5 +65,11 @@
     <ClCompile Include="Number with odd times.cpp">
       <Filter>Source Files\Basic Data Structure\Array</Filter>
     </ClCompile>
+    <ClCompile Include="LargestSumContiguousSubarray.cpp">
+      <Filter>Source Files\Basic Data Structure\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="MissingNumber.cpp">
+      <Filter>Source Files\Basic Data Structure\Array</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
