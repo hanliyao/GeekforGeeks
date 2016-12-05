@@ -1,7 +1,7 @@
 #include<iostream>
 #include<random>
 using namespace std;
-
+#define NA -1
 void moveToEnd(int mPlusN[], int size)
 {
 	int i = 0;
@@ -10,11 +10,23 @@ void moveToEnd(int mPlusN[], int size)
 	{
 		if (mPlusN[i] != NA)
 		{
-
+			mPlusN[j] = mPlusN[i];
+			j--;
 		}
 	}
 }
-void main()
+int merge(int mPlus[], int N[], int m, int n)
+{
+	int i = 0;
+	int j = 0;
+	int k = 0;
+	while (k<(m+n))
+	{
+
+	}
+	return 0;
+}
+void MergeArray()
 {
 
 }

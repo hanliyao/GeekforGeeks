@@ -54,6 +54,9 @@
     <Text Include="关于如何准备ACM比赛的问题.txt">
       <Filter>Resource Files</Filter>
     </Text>
+    <Text Include="关于找工作的问题.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PairInArray.cpp">
@@ -76,6 +79,15 @@
     </ClCompile>
     <ClCompile Include="AdvancedBinSearch.cpp">
       <Filter>Source Files\Basic Data Structure\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeArray.cpp">
+      <Filter>Source Files\Basic Data Structure\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicProgramming.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestIncreasingSubsequence.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

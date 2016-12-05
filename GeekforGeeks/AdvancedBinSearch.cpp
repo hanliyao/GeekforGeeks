@@ -37,4 +37,5 @@ int BinSearch()
 	int i = search(arr, 0, n - 1, key);
 	if (i != -1) cout << "Index: " << i << endl;
 	else cout << "Key not found\n";
+	return 0;
 }
