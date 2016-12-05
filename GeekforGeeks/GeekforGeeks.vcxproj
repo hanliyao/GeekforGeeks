@@ -145,6 +145,8 @@
     <Text Include="关于如何准备ACM比赛的问题.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AdvancedBinSearch.cpp" />
+    <ClCompile Include="ElementInSortedandRotatedArray.cpp" />
     <ClCompile Include="LargestSumContiguousSubarray.cpp" />
     <ClCompile Include="MajorityElement.cpp" />
     <ClCompile Include="MissingNumber.cpp" />
