@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{05198F68-C67F-4B46-8B68-C79DA914DDDB}</ProjectGuid>
+    <ProjectGuid>{FE414CE1-841F-4F33-92FC-63B28F310915}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>GeekforGeeks</RootNamespace>
+    <RootNamespace>IntrusionDetection</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -142,26 +142,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="关于如何准备ACM比赛的问题.txt" />
-    <Text Include="关于找工作的问题.txt" />
+    <ClInclude Include="markov.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AdvancedBinSearch.cpp" />
-    <ClCompile Include="ArrayRotate.cpp" />
-    <ClCompile Include="DynamicProgramming.cpp" />
-    <ClCompile Include="EditDistance.cpp" />
-    <ClCompile Include="ElementInSortedandRotatedArray.cpp" />
-    <ClCompile Include="LargestSumContiguousSubarray.cpp" />
-    <ClCompile Include="LongestCommonSubsequence.cpp" />
-    <ClCompile Include="LongestIncreasingSubsequence.cpp" />
-    <ClCompile Include="LongestPath.cpp" />
-    <ClCompile Include="MajorityElement.cpp" />
-    <ClCompile Include="MergeArray.cpp" />
-    <ClCompile Include="minimum difference of subset sums.cpp" />
-    <ClCompile Include="MissingNumber.cpp" />
-    <ClCompile Include="Number with odd times.cpp" />
-    <ClCompile Include="NumberConvertDistance.cpp" />
-    <ClCompile Include="PairInArray.cpp" />
+    <ClCompile Include="markov.cpp" />
+    <ClCompile Include="Test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

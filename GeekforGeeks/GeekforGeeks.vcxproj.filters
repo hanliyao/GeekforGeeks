@@ -89,5 +89,23 @@
     <ClCompile Include="LongestIncreasingSubsequence.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
+    <ClCompile Include="LongestCommonSubsequence.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="EditDistance.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="minimum difference of subset sums.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayRotate.cpp">
+      <Filter>Source Files\Basic Data Structure\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberConvertDistance.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestPath.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

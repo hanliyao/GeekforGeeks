@@ -11,16 +11,34 @@ using namespace std;
 /*
 	D代表输入的序列
 */
-void calc_LIS(int arr[],int size)
+void calc_LIS(vector<int> &D)
 {
-	for (int i = 0; i < size; i++)
+	vector<vector<int>> L(D.size());
+	L[0].push_back(D[0]);//如果子序列中只有一个元素，那么这个元素就是子序列中最大的元素
+	int i;
+	for (i = 1; i < D.size(); i++)
 	{
-		cout << arr[i] << " ";
+		for (int j = 0; j < i; j++)
+		{
+			if ((D[j] < D[i]) && ((L[i].size() < L[j].size() + 1)))//迭代出前面的最大的子序列
+				L[i] = L[j];
+		}
+		L[i].push_back(D[i]);
 	}
-	cout << endl;
+	for (vector<int> x : L)
+	{
+		for (vector<int>::iterator it = x.begin(); it != x.end(); it++)
+		{
+			cout << *it << " ";
+		}
+		cout << endl;
+	}
 }
-void main()
+void LIS()
 {
 	int a[] = {3,2,6,4,5,1};
-	calc_LIS(a,6);
+	vector<int> arr(a, a + sizeof(a) / sizeof(a[0]));
+	cout << "Data in" << endl;
+	calc_LIS(arr);
+
 }
