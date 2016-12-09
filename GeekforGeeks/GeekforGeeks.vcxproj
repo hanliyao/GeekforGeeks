@@ -151,6 +151,7 @@
     <ClCompile Include="DynamicProgramming.cpp" />
     <ClCompile Include="EditDistance.cpp" />
     <ClCompile Include="ElementInSortedandRotatedArray.cpp" />
+    <ClCompile Include="KnapSack.cpp" />
     <ClCompile Include="LargestSumContiguousSubarray.cpp" />
     <ClCompile Include="LongestCommonSubsequence.cpp" />
     <ClCompile Include="LongestIncreasingSubsequence.cpp" />
@@ -159,9 +160,13 @@
     <ClCompile Include="MergeArray.cpp" />
     <ClCompile Include="minimum difference of subset sums.cpp" />
     <ClCompile Include="MissingNumber.cpp" />
+    <ClCompile Include="ModularExponentiation.cpp" />
     <ClCompile Include="Number with odd times.cpp" />
     <ClCompile Include="NumberConvertDistance.cpp" />
+    <ClCompile Include="OptimalStrategy.cpp" />
     <ClCompile Include="PairInArray.cpp" />
+    <ClCompile Include="Stack.cpp" />
+    <ClCompile Include="SubsetSum.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -49,6 +49,12 @@
     <Filter Include="Source Files\Basic Data Structure\Array">
       <UniqueIdentifier>{ee5c1b00-ec03-4392-889f-b77da9df60e9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Basic Mathematics">
+      <UniqueIdentifier>{d0d2f425-b06d-4bbd-84ad-ef62007b7fc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stack">
+      <UniqueIdentifier>{10c9de4e-ab0d-4e8c-90a7-371a0a6cf564}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="关于如何准备ACM比赛的问题.txt">
@@ -105,6 +111,21 @@
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
     <ClCompile Include="LongestPath.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="SubsetSum.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="ModularExponentiation.cpp">
+      <Filter>Source Files\Basic Mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>Source Files\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="OptimalStrategy.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="KnapSack.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
   </ItemGroup>
