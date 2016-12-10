@@ -128,5 +128,17 @@
     <ClCompile Include="KnapSack.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
+    <ClCompile Include="algorithm.txt">
+      <Filter>Source Files\Back Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Knight.cpp">
+      <Filter>Source Files\Back Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Rat.cpp">
+      <Filter>Source Files\Back Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="NQueue.cpp">
+      <Filter>Source Files\Back Tracking</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
