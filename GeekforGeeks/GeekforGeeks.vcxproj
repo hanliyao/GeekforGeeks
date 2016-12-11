@@ -147,11 +147,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AdvancedBinSearch.cpp" />
+    <ClCompile Include="AllCombinations.cpp" />
     <ClCompile Include="ArrayRotate.cpp" />
     <ClCompile Include="DynamicProgramming.cpp" />
     <ClCompile Include="EditDistance.cpp" />
     <ClCompile Include="ElementInSortedandRotatedArray.cpp" />
+    <ClCompile Include="Enumerate.cpp" />
     <ClCompile Include="KnapSack.cpp" />
+    <ClCompile Include="Knight.cpp" />
     <ClCompile Include="LargestSumContiguousSubarray.cpp" />
     <ClCompile Include="LongestCommonSubsequence.cpp" />
     <ClCompile Include="LongestIncreasingSubsequence.cpp" />
@@ -163,6 +166,7 @@
     <ClCompile Include="ModularExponentiation.cpp" />
     <ClCompile Include="Number with odd times.cpp" />
     <ClCompile Include="NumberConvertDistance.cpp" />
+    <ClCompile Include="OptimalBinarySearch.cpp" />
     <ClCompile Include="OptimalStrategy.cpp" />
     <ClCompile Include="PairInArray.cpp" />
     <ClCompile Include="Stack.cpp" />

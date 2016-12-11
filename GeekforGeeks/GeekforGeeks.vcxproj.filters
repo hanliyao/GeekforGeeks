@@ -128,5 +128,17 @@
     <ClCompile Include="KnapSack.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
+    <ClCompile Include="Knight.cpp">
+      <Filter>Source Files\Back Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="OptimalBinarySearch.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Enumerate.cpp">
+      <Filter>Source Files\Back Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="AllCombinations.cpp">
+      <Filter>Source Files\Back Tracking</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
