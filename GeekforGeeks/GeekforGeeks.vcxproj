@@ -146,15 +146,18 @@
     <Text Include="关于找工作的问题.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Activity Selection.cpp" />
     <ClCompile Include="AdvancedBinSearch.cpp" />
     <ClCompile Include="AllCombinations.cpp" />
     <ClCompile Include="ArrayRotate.cpp" />
+    <ClCompile Include="BKSubsetSum.cpp" />
     <ClCompile Include="DynamicProgramming.cpp" />
     <ClCompile Include="EditDistance.cpp" />
     <ClCompile Include="ElementInSortedandRotatedArray.cpp" />
     <ClCompile Include="Enumerate.cpp" />
     <ClCompile Include="KnapSack.cpp" />
     <ClCompile Include="Knight.cpp" />
+    <ClCompile Include="Kruskal Minimum Spanning Tree.cpp" />
     <ClCompile Include="LargestSumContiguousSubarray.cpp" />
     <ClCompile Include="LongestCommonSubsequence.cpp" />
     <ClCompile Include="LongestIncreasingSubsequence.cpp" />
@@ -169,6 +172,7 @@
     <ClCompile Include="OptimalBinarySearch.cpp" />
     <ClCompile Include="OptimalStrategy.cpp" />
     <ClCompile Include="PairInArray.cpp" />
+    <ClCompile Include="Huffman Coding.cpp" />
     <ClCompile Include="Stack.cpp" />
     <ClCompile Include="SubsetSum.cpp" />
   </ItemGroup>

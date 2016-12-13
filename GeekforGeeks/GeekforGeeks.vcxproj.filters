@@ -140,5 +140,17 @@
     <ClCompile Include="AllCombinations.cpp">
       <Filter>Source Files\Back Tracking</Filter>
     </ClCompile>
+    <ClCompile Include="BKSubsetSum.cpp">
+      <Filter>Source Files\Back Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Activity Selection.cpp">
+      <Filter>Source Files\Greedy Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Kruskal Minimum Spanning Tree.cpp">
+      <Filter>Source Files\Greedy Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Huffman Coding.cpp">
+      <Filter>Source Files\Greedy Algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
