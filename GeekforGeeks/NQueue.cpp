@@ -82,7 +82,3 @@ bool solveNQ()
 	printSolution(board);
 	return true;
 }
-void main()
-{
-
-}

@@ -163,7 +163,7 @@
     <ClCompile Include="minimum difference of subset sums.cpp" />
     <ClCompile Include="MissingNumber.cpp" />
     <ClCompile Include="ModularExponentiation.cpp" />
-    <ClCompile Include="NQueue.cpp" />
+    <ClCompile Include="NColor.cpp" />
     <ClCompile Include="Number with odd times.cpp" />
     <ClCompile Include="NumberConvertDistance.cpp" />
     <ClCompile Include="OptimalStrategy.cpp" />
